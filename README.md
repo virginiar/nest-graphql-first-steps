@@ -47,3 +47,11 @@ En esta API se trabajan los siguientes aspectos de Nest y GraphQL:
 -	Custom Types
 -	Servicios
 -	CRUD
+
+## Librerías utilizadas
+
+Los paquetes necesarios para trabajar con GraphQL en NestJS son:
+```bash
+$ npm i @nestjs/graphql @nestjs/apollo @apollo/server @as-integrations/express5 graphql
+```
+
