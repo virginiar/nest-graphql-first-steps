@@ -2,6 +2,8 @@ import { join } from 'path';
 import { Module } from '@nestjs/common';
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
 import { GraphQLModule } from '@nestjs/graphql';
+import { ApolloServerPluginLandingPageLocalDefault } from '@apollo/server/plugin/landingPage/default';
+
 import { HelloWorldModule } from './hello-world/hello-world.module';
 
 @Module({
@@ -10,8 +12,9 @@ import { HelloWorldModule } from './hello-world/hello-world.module';
       driver: ApolloDriver,
       // debug: false,
       // graphiql: true,
-      // playground: false,
+      playground: false,
       autoSchemaFile: join(process.cwd(), 'src/schema.gql'),
+      plugins: [ApolloServerPluginLandingPageLocalDefault()],
     }),
     HelloWorldModule,
   ],
