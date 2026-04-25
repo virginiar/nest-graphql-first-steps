@@ -53,3 +53,7 @@ Los paquetes necesarios para trabajar con GraphQL en NestJS son:
 $ npm i @nestjs/graphql @nestjs/apollo @apollo/server @as-integrations/express5 graphql
 ```
 
+Los paquetes necesarios para realizar validaciones en NestJS son:
+```bash
+$ npm i class-validator class-transformer
+```
