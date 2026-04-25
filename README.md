@@ -4,7 +4,7 @@
 
 # Nest-First-Steps
 
-API básico creado con [Nest](https://github.com/nestjs/nest) y [GraphQL](https://docs.nestjs.com/graphql/quick-start). Basado en el curso de "Nest + GraphQL: Evoluciona tus APIs" de [DevTalles](https://cursos.devtalles.com/) en Udemy.
+API básico de lista de tareas creado con [Nest](https://github.com/nestjs/nest) y [GraphQL](https://docs.nestjs.com/graphql/quick-start). Basado en el curso de "Nest + GraphQL: Evoluciona tus APIs" de [DevTalles](https://cursos.devtalles.com/) en Udemy.
 
 ## Configuración del proyecto
 
@@ -29,20 +29,18 @@ $ npm run start:prod
 ## Aspectos estudiados
 
 En esta API se trabajan los siguientes aspectos de Nest y GraphQL:
+-	Instalaciones en Nest
 -	GraphQL Playground
 -	Apollo Studio
 -	Diferentes GUIs para usar GraphQL
 -	Resolvers
 -	Args
 -	Queries
--	Instalaciones en Nest
 -	Alias
 -	Fragments
--	Queries
 -	Mutations
 -	Aggregations
 -	Deprecated directive
--	Args
 -	Inputs
 -	Custom Types
 -	Servicios
