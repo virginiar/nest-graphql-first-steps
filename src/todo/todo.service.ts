@@ -58,4 +58,17 @@ export class TodoService {
 
     return true;
   }
+
+  // Conteos
+  get totalTodos() {
+    return this.todos.length;
+  }
+
+  get pendingTodos() {
+    return this.todos.filter((todo) => todo.done === false).length;
+  }
+
+  get completedTodos() {
+    return this.todos.filter((todo) => todo.done === true).length;
+  }
 }
